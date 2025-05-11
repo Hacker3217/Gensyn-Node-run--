@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Swarm Setup Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #0056b3;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    pre {
+      background-color: #eee;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    hr {
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AI Swarm Guide</h1>
+  <p>This guide will walk you through setting up an AI-based swarm simulation and inference environment. No prior deep learning experience needed.</p>
+
+  <hr />
+
+  <h2>🛠 System Requirements</h2>
+  <ul>
+    <li>Python 3.9 or later</li>
+    <li>Git</li>
+    <li>GPU recommended (CUDA supported)</li>
+    <li>Linux / WSL / macOS</li>
+  </ul>
+
+  <hr />
+
+  <h2>📦 Installation</h2>
+  <pre><code>git clone https://github.com/yourusername/your-ai-swarm-repo.git
+cd your-ai-swarm-repo
+pip install -r requirements.txt</code></pre>
+
+  <hr />
+
+  <h2>⚙️ Setup</h2>
+  <p>Before running the system, configure your settings:</p>
+  <pre><code># config.yaml
+gpu: true
+num_workers: 4
+env: "simulated"</code></pre>
+
+  <hr />
+
+  <h2>🚀 Running the Swarm</h2>
+  <p>To start the simulation:</p>
+  <pre><code>python run_swarm.py --mode train</code></pre>
+
+  <p>To visualize results:</p>
+  <pre><code>python visualize.py --model checkpoints/model_latest.pth</code></pre>
+
+  <hr />
+
+  <h2>📢 Community</h2>
+  <p>Join our Telegram channel for updates and support:</p>
+  <p><a href="https://t.me/YourChannelUsername">@YourChannelUsername</a></p>
+
+  <hr />
+
+  <footer>
+    <p style="font-size: 0.9em; color: #666;">This page is an independent educational resource. Not affiliated with any project.</p>
+  </footer>
+
+</body>
+</html>
